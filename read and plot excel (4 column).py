@@ -29,10 +29,10 @@ loc1 = r"C:\path\filename.xlsx"
 
 #  FOR sample #1  I am not sure if this is required to be copied and pasted to each sample section, is there a shorter way?
 
-x=pd.read_excel(loc1, "Record", usecols="A")   # Time in hours
-g=pd.read_excel(loc1, "Record", usecols="B")   # current (mA)
-g2=pd.read_excel(loc1, "Record", usecols="C")  #Capacity (mAh)
-g3=pd.read_excel(loc1, "Record", usecols="D")  #  overpotential (volts) 
+x=pd.read_excel(loc1, usecols="A")   # Time in hours
+g=pd.read_excel(loc1, usecols="B")   # current (mA)
+g2=pd.read_excel(loc1, , usecols="C")  #Capacity (mAh)
+g3=pd.read_excel(loc1, usecols="D")  #  overpotential (volts) 
            
 filename=Path(loc1).stem  # this removes the path (in loc1) from the filename
 
