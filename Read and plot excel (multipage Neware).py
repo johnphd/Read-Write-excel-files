@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu Dec  2 14:49:43 2021
+Created on January 3, 2022
 
 @author: Johnphd
 This is code borrowed and pieced together from github.  It's a first trial for data plotting from familar file layouts..
